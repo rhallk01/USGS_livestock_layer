@@ -1,0 +1,402 @@
+<metadata xml:lang="en">
+	<Esri>
+		<CreaDate>20250310</CreaDate>
+		<CreaTime>11114400</CreaTime>
+		<ArcGISFormat>1.0</ArcGISFormat>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<lineage>
+				<Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\TruncateTable" Date="20250310" Time="111144">TruncateTable \\usda.net\fs\FS\BusOps\CIO\Project\EDW\FME_Work\FME_CONNECTIONS_DB_NRM_CIO\EDW_DEV_S_USA_Proxy.sde\S_USA.Range_Allotment</Process>
+				<Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\UpdateSchema" Date="20250310" Time="111257">UpdateSchema "CIMDATA=&lt;CIMStandardDataConnection xsi:type='typens:CIMStandardDataConnection' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/3.3.0'&gt;&lt;WorkspaceConnectionString&gt;ENCRYPTED_PASSWORD_UTF8=00022e683365363161326e714e51684658307265386679316f413d3d2a00;ENCRYPTED_PASSWORD=00022e687054513769654a64587a716c4a6344765038384f36673d3d2a00;SERVER=sde_edw_dev;INSTANCE=sde:oracle11g:sde_edw_dev;DBCLIENT=oracle;DB_CONNECTION_PROPERTIES=sde_edw_dev;PROJECT_INSTANCE=sde;USER=[S_USA];VERSION=SDE.DEFAULT;AUTHENTICATION_MODE=DBMS&lt;/WorkspaceConnectionString&gt;&lt;WorkspaceFactory&gt;SDE&lt;/WorkspaceFactory&gt;&lt;Dataset&gt;S_USA.Range_Allotment&lt;/Dataset&gt;&lt;DatasetType&gt;esriDTFeatureClass&lt;/DatasetType&gt;&lt;/CIMStandardDataConnection&gt;" &lt;operationSequence&gt;&lt;workflow&gt;&lt;AlterField&gt;&lt;field_name&gt;ALLOT_STATUS&lt;/field_name&gt;&lt;field_type&gt;TEXT&lt;/field_type&gt;&lt;field_length&gt;30&lt;/field_length&gt;&lt;field_is_nullable&gt;True&lt;/field_is_nullable&gt;&lt;clear_field_alias&gt;False&lt;/clear_field_alias&gt;&lt;/AlterField&gt;&lt;/workflow&gt;&lt;/operationSequence&gt;</Process>
+				<Process ToolSource="e:\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20250928" Time="103857">CopyFeatures \\usda.net\FS\FS\BusOps\CIO\Project\EDW\FME_Work\FME_CONNECTIONS\EDW_READ_ONLY.sde\S_USA.Range_Allotment \\Usda.net\fs\FS\BusOps\CIO\Project\EDW\FME_Work\data.fs.usda.gov\deploy_datasets\out\temp\S_USA.Range_Allotment\Range_Allotment.shp # # # #</Process></lineage>
+			<itemProps>
+				<itemName Sync="TRUE">Range_Allotment</itemName>
+				<nativeExtBox>
+					<westBL Sync="TRUE">-123.779512</westBL>
+					<eastBL Sync="TRUE">-76.734049</eastBL>
+					<southBL Sync="TRUE">30.963309</southBL>
+					<northBL Sync="TRUE">49.000109</northBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</nativeExtBox>
+				<itemLocation>
+					<linkage Sync="TRUE">file://\\Usda.net\fs\FS\BusOps\CIO\Project\EDW\FME_Work\data.fs.usda.gov\deploy_datasets\out\temp\S_USA.Range_Allotment\Range_Allotment.shp</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</itemLocation>
+				<imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.000</itemSize></itemProps>
+			<coordRef>
+				<type Sync="TRUE">Geographic</type>
+				<geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+				<csUnits Sync="TRUE">Angular Unit: Degree (0.017453)</csUnits>
+				<peXml Sync="TRUE">&lt;GeographicCoordinateSystem xsi:type='typens:GeographicCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/3.3.0'&gt;&lt;WKT&gt;GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433],AUTHORITY[&amp;quot;EPSG&amp;quot;,4269]]&lt;/WKT&gt;&lt;XOrigin&gt;-400&lt;/XOrigin&gt;&lt;YOrigin&gt;-400&lt;/YOrigin&gt;&lt;XYScale&gt;11258999068426.238&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;8.983152841195215e-09&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;LeftLongitude&gt;-180&lt;/LeftLongitude&gt;&lt;WKID&gt;4269&lt;/WKID&gt;&lt;LatestWKID&gt;4269&lt;/LatestWKID&gt;&lt;/GeographicCoordinateSystem&gt;</peXml>
+			</coordRef>
+		</DataProperties>
+		<SyncDate>20250928</SyncDate>
+		<SyncTime>10385100</SyncTime>
+		<ModDate>20250928</ModDate>
+		<ModTime>10385100</ModTime>
+	</Esri>
+	<mdChar>
+		<CharSetCd value="004"/>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd value="005"/>
+	</mdHrLv>
+	<mdContact>
+		<rpOrgName>USFS Chief Information Office, Enterprise Data Warehouse</rpOrgName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>Please send an e-mail to the address below.</voiceNum>
+			</cntPhone>
+			<cntAddress addressType="physical">
+				<city>Washington</city>
+				<adminArea>DC</adminArea>
+				<postCode>20250</postCode>
+				<eMailAdd>SM.FS.data@usda.gov</eMailAdd>
+			</cntAddress>
+		</rpCntInfo>
+		<role>
+			<RoleCd value="007"/>
+		</role>
+	</mdContact>
+	<mdDateSt>20240529</mdDateSt>
+	<mdStanName>ArcGIS Metadata</mdStanName>
+	<mdStanVer>1.0</mdStanVer>
+	<dataIdInfo><placeKeys><keyword>USA</keyword></placeKeys>
+		<idCitation>
+			<resTitle>Allotment</resTitle>
+			<date>
+				<pubDate>2025-09-27T01:42:06</pubDate>
+			</date>
+			<citRespParty>
+				<rpOrgName>USDA Forest Service</rpOrgName>
+				<role>
+					<RoleCd value="006"/>
+				</role>
+			</citRespParty>
+			<presForm>
+				<PresFormCd value="vector"/>
+			</presForm>
+			<presForm>
+				<fgdcGeoform>vector</fgdcGeoform>
+			</presForm>
+		</idCitation>
+		<idAbs>Allotment is a feature class in the Rangeland Management data set. It represents the area boundaries of livestock grazing allotments that include active pastures associated with the allotment. The area corresponds to tabular data in the RIMS (Rangeland Information Management System).</idAbs>
+		<idPurp>The Allotment feature class designates boundaries to establish extent of livestock distribution and management within the allotment. This is a published layer created by combining GIS data managed by each National Forest and attribute data stored in the Rangeland Information Management System. The data is used to create permit maps, field working maps and any other logical uses that the internal and external public may determine this information is helpful for.</idPurp>
+		<idStatus>
+			<ProgCd value="007"/>
+		</idStatus>
+		<idPoC>
+			<rpOrgName>USFS Chief Information Office, Enterprise Data Warehouse</rpOrgName>
+			<rpCntInfo>
+				<cntPhone>
+					<voiceNum>Please send an e-mail to the address below</voiceNum>
+				</cntPhone>
+				<cntAddress addressType="physical">
+					<city>Washington</city>
+					<adminArea>DC</adminArea>
+					<postCode>20250</postCode>
+					<country>US</country>
+					<eMailAdd>SM.FS.data@usda.gov</eMailAdd>
+				</cntAddress>
+			</rpCntInfo>
+			<role>
+				<RoleCd value="007"/>
+			</role>
+		</idPoC>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="009"/>
+			</maintFreq>
+		</resMaint>
+		<themeKeys>
+			<keyword>Boundaries;Farming;Environment</keyword>
+			<thesaName>
+				<resTitle>ISO 19115 Topic Categories</resTitle>
+			</thesaName>
+		</themeKeys>
+		<searchKeys>
+			<keyword>Boundaries;Farming;Environment</keyword>
+		</searchKeys>
+		<resConst>
+			<Consts><useLimit>The USDA Forest Service makes no warranty, expressed or implied, including the warranties of merchantability and fitness for a particular purpose, nor assumes any legal liability or responsibility for the accuracy, reliability, completeness or utility of these geospatial data, or for the improper or incorrect use of these geospatial data. These geospatial data and related maps or graphics are not legal documents and are not intended to be used as such. The data and maps may not be used to determine title, ownership, legal descriptions or boundaries, legal jurisdiction, or restrictions that may be in place on either public or private land. Natural hazards may or may not be depicted on the data and maps, and users should exercise due caution. The data are dynamic and may change over time. The user is responsible to verify the limitations of the geospatial data and to use the data accordingly.</useLimit>
+			</Consts>
+		</resConst>
+		<spatRpType>
+			<SpatRepTypCd value="001"/>
+		</spatRpType>
+		<envirDesc>Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</envirDesc>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox>
+					<exTypeCode>true</exTypeCode>
+					<westBL>-123.779512</westBL>
+					<eastBL>-81.255401</eastBL>
+					<northBL>49.000109</northBL>
+					<southBL>31.332347</southBL>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<dataExt>
+			<exDesc>National Extent</exDesc>
+			<tempEle>
+				<TempExtent>
+					<exTemp>
+						<TM_Period>
+							<tmBegin>2008</tmBegin>
+							<tmEnd date="now"/>
+						</TM_Period>
+					</exTemp>
+				</TempExtent>
+			</tempEle>
+			<geoEle/></dataExt>
+		<dataLang><languageCode value="eng" Sync="TRUE"/><countryCode value="USA" Sync="TRUE"/></dataLang><dataExt><geoEle><GeoBndBox esriExtentType="search"><exTypeCode Sync="TRUE">1</exTypeCode><westBL Sync="TRUE">-123.779512</westBL><eastBL Sync="TRUE">-76.734049</eastBL><northBL Sync="TRUE">49.000109</northBL><southBL Sync="TRUE">30.963309</southBL></GeoBndBox></geoEle></dataExt></dataIdInfo>
+	<dqInfo>
+		<dqScope>
+			<scpLvl>
+				<ScopeCd value="005"/>
+			</scpLvl>
+		</dqScope>
+		<report type="DQConcConsis">
+			<measDesc>Data stewards have been relied on to validate the data quality and accuracy of the boundaries for allotments, pastures, and key areas. Pasture and key area boundaries have been identified using various methods through the years like GPS or digitizing. Spatial data comes from the district and is consolidated at the forest level. This will be a consolidated national extent of the data entered at the lowest level of the agency. Data quality is dependent on quality data maintenance by local data stewards. By having the ETL create the allotment feature class from all active pastures the quality of that data will be directly dependent on the pasture data.</measDesc>
+		</report>
+		<report type="DQCompOm">
+			<measDesc>This data is current only as of the date of publication and may change daily. The need for a daily refresh is key to incorporate any and all local changes as they are made and keep the data in EDW fresh.</measDesc>
+		</report>
+		<report type="DQAbsExtPosAcc" dimension="horizontal">
+			<measDesc>Positional accuracy is verified by visual comparison to source datasets</measDesc>
+		</report>
+		<dataLineage>
+			<prcStep>
+				<stepDesc>Data is the result of a national data call where local units were asked to identify and provide spatial and tabular data to represent pastures and key areas with the intent to have the allotment feature class created based on active pastures. Local units are to follow the current GIS Data Dictionaries and load their local data into the appropriate SDE to be collected and merged into a national extent.</stepDesc>
+				<stepDateTm>2025-09-27</stepDateTm>
+			</prcStep>
+		</dataLineage>
+	</dqInfo>
+	<spatRepInfo>
+		<VectSpatRep><geometObjs Name="Range_Allotment"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo>
+	<eainfo>
+		<detailed Name="Range_Allotment">
+			<enttyp>
+				<enttypl>S_USA.Range_Allotment</enttypl>
+				<enttypd>Feature class: A collection of geographic features with the same geometry type (such as point, line, or polygon), the same attributes, and the same spatial reference.</enttypd>
+				<enttypds>ESRI GIS Dictionary</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl>ALLOT_CN</attrlabl>
+				<attrdef>Globally unique identifier across all Forest Service databases, foreign key to most Forest Service National Application databases. Specifically for allotments.</attrdef>
+				<attrdefs>US Forest Service</attrdefs>
+				<attrdomv>
+					<udom>Text</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">ALLOT_CN</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">34</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">ADMIN_ORG_</attrlabl><attalias Sync="TRUE">ADMIN_ORG_</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ADMIN_ORG1</attrlabl><attalias Sync="TRUE">ADMIN_ORG1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">60</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">MANAGING_O</attrlabl><attalias Sync="TRUE">MANAGING_O</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">MANAGING_1</attrlabl><attalias Sync="TRUE">MANAGING_1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">60</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr>
+				<attrlabl>ALLOT_ID</attrlabl>
+				<attrdef>A 5 alpha numeric character ID assigned to the allotment.</attrdef>
+				<attrdefs>US Forest Service</attrdefs>
+				<attrdomv>
+					<udom>Text</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">ALLOT_ID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>ALLOT_NAME</attrlabl>
+				<attrdef>The name of the allotment. The name need not be unique.</attrdef>
+				<attrdefs>US Forest Service</attrdefs>
+				<attrdomv>
+					<udom>Text</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">ALLOT_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">60</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>BISON</attrlabl>
+				<attrdef>Indicates that bison are permitted for allotment. Format is YES/NO.</attrdef>
+				<attrdefs>US Forest Service</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>YES</edomv>
+						<edomvd>This stock type is permitted.</edomvd>
+						<edomvds> US Forest Service</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>NO</edomv>
+						<edomvd>This stock type is not permitted.</edomvd>
+						<edomvds> US Forest Service</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">BISON</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">ALLOT_STAT</attrlabl><attalias Sync="TRUE">ALLOT_STAT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr>
+				<attrlabl>CATTLE</attrlabl>
+				<attrdef>Indicates that cattle are permitted for allotment. Cattle include mature cow, mature cow with nursing calf, weaner calf, yearling, or bull. Format is YES/NO.</attrdef>
+				<attrdefs>US Forest Service</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>YES</edomv>
+						<edomvd>This stock type is permitted.</edomvd>
+						<edomvds> US Forest Service</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>NO</edomv>
+						<edomvd>This stock type is not permitted.</edomvd>
+						<edomvds> US Forest Service</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">CATTLE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>GOATS</attrlabl>
+				<attrdef>Indicates that goats are permitted for allotment. Goats include nanny with kid, or mature goat. Format is YES/NO.</attrdef>
+				<attrdefs>US Forest Service</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>YES</edomv>
+						<edomvd>This stock type is permitted.</edomvd>
+						<edomvds> US Forest Service</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>NO</edomv>
+						<edomvd>This stock type is not permitted.</edomvd>
+						<edomvds> US Forest Service</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">GOATS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">DONKEY_AND</attrlabl><attalias Sync="TRUE">DONKEY_AND</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr>
+				<attrlabl>HORSES</attrlabl>
+				<attrdef>Indicates that horses are permitted for allotment. Format is YES/NO.</attrdef>
+				<attrdefs>US Forest Service</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>YES</edomv>
+						<edomvd>This stock type is permitted.</edomvd>
+						<edomvds> US Forest Service</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>NO</edomv>
+						<edomvd>This stock type is not permitted.</edomvd>
+						<edomvds> US Forest Service</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">HORSES</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>LLAMAS</attrlabl>
+				<attrdef>Indicates that llamas are permitted for allotment. Format is YES/NO.</attrdef>
+				<attrdefs>US Forest Service</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>YES</edomv>
+						<edomvd>This stock type is permitted.</edomvd>
+						<edomvds> US Forest Service</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>NO</edomv>
+						<edomvd>This stock type is not permitted.</edomvd>
+						<edomvds> US Forest Service</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">LLAMAS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>MULE</attrlabl>
+				<attrdef>Indicates that mules are permitted for allotment. Format is YES/NO.</attrdef>
+				<attrdefs>US Forest Service</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>YES</edomv>
+						<edomvd>This stock type is permitted.</edomvd>
+						<edomvds> US Forest Service</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>NO</edomv>
+						<edomvd>This stock type is not permitted.</edomvd>
+						<edomvds> US Forest Service</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">MULE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>SHEEP</attrlabl>
+				<attrdef>Indicates that sheep are permitted for allotment. Sheep includes ewe with lamb, or mature sheep. Format is YES/NO.</attrdef>
+				<attrdefs>US Forest Service</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>YES</edomv>
+						<edomvd>This stock type is permitted.</edomvd>
+						<edomvds> US Forest Service</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>NO</edomv>
+						<edomvd>This stock type is not permitted.</edomvd>
+						<edomvds> US Forest Service</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">SHEEP</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>SWINE</attrlabl>
+				<attrdef>Indicates that swine are permitted for allotment. Format is YES/NO.</attrdef>
+				<attrdefs>US Forest Service</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>YES</edomv>
+						<edomvd>This stock type is permitted.</edomvd>
+						<edomvds> US Forest Service</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>NO</edomv>
+						<edomvd>This stock type is not permitted.</edomvd>
+						<edomvds> US Forest Service</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">SWINE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>GIS_ACRES</attrlabl>
+				<attrdef>The area of the feature in acres, calculated in North American Albers Equal Area Conic projection (NAD83) meters and then converted to acres with the formula AreaMeters * 0.0002471054.</attrdef>
+				<attrdefs>US Forest Service</attrdefs>
+				<attrdomv>
+					<udom>Calculated acres</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">GIS_ACRES</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">8</attscale></attr>
+			<attr><attrlabl Sync="TRUE">NEPA_DEC_A</attrlabl><attalias Sync="TRUE">NEPA_DEC_A</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">5</attwidth><atprecis Sync="TRUE">5</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">AMP_APPROV</attrlabl><attalias Sync="TRUE">AMP_APPROV</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">5</attwidth><atprecis Sync="TRUE">5</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ALLOT_NFS_</attrlabl><attalias Sync="TRUE">ALLOT_NFS_</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ALLOT_WAIV</attrlabl><attalias Sync="TRUE">ALLOT_WAIV</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ALLOT_OTHE</attrlabl><attalias Sync="TRUE">ALLOT_OTHE</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ALLOT_TOTA</attrlabl><attalias Sync="TRUE">ALLOT_TOTA</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr>
+				<attrlabl>REV_DATE</attrlabl>
+				<attrdef>Revision date, the date and time when the feature was created or last updated. Time is entered using a 24-hour clock (military time) based on the Pacific Standard Time (PST) zone. Tasks associated with each revision should be documented in the process steps of theme-based metadata. Entering the date only is acceptable.</attrdef>
+				<attrdefs>US Forest Service</attrdefs>
+				<attrdomv>
+					<udom>Date</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">REV_DATE</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>ACCURACY</attrlabl>
+				<attrdef>Distance (+/-), in dataset distance units, of the expected difference between feature and real-world object locations.</attrdef>
+				<attrdefs>US Forest Service</attrdefs>
+				<attrdomv>
+					<udom>Double</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">ACCURACY</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">8</attscale></attr>
+			<attr><attrlabl Sync="TRUE">DATA_SOURC</attrlabl><attalias Sync="TRUE">DATA_SOURC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr>
+				<attrlabl>GLOBALID</attrlabl>
+				<attrdef>Globally Unique Identifier assigned to the spatial record. Primary key for linking geospatial objects with other database systems.</attrdef>
+				<attrdefs>US Forest Service</attrdefs>
+				<attrdomv>
+					<udom>GlobalID</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">GLOBALID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">38</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">SHAPE_AREA</attrlabl><attalias Sync="TRUE">SHAPE_AREA</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">SHAPE_LEN</attrlabl><attalias Sync="TRUE">SHAPE_LEN</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+	</eainfo>
+	<mdLang><languageCode value="eng" Sync="TRUE"/><countryCode value="USA" Sync="TRUE"/></mdLang><distInfo><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><mdHrLvName Sync="TRUE">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode code="4269" Sync="TRUE"/><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">6.5(3.0.1)</idVersion></refSysID></RefSystem></refSysInfo><spdoinfo><ptvctinf><esriterm Name="Range_Allotment"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo></metadata>
