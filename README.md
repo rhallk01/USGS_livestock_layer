@@ -23,7 +23,10 @@ https://data.fs.usda.gov/geodata/edw/datasets.php?xmlKeyword=livestock
 https://catalog.data.gov/dataset/range-unit-pasture-3ac93<br>
 1km, 2008-2025
 
-### Cattle
-*EnviroAtlas - Cattle Operations by County*<br>
-https://catalog.data.gov/dataset/enviroatlas-cattle-operations-by-county7<br>
-1km, 2002, 2007, 2012, and 2017
+### Poultry, Livestock, Cattle, Dairy
+*USDA Quick Stats*<br>
+https://quickstats.nass.usda.gov/<br>
+Poultry: county, 1997, 2002, 2007, 2012, 2017, and 2022<br>
+Dairy: state, 2000-2020<br>
+Livestock: county, 2007, 2012, 2017<br>
+Cattle: county, 2002, 2007, 2012, 2017, and 2022<br>
